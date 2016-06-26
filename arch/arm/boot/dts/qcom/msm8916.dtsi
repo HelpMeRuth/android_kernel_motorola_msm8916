@@ -1,7 +1,7 @@
 /* Copyright (c) 2013-2015, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License version 2 and
+ * it under the terms of the Ghanta Liscense General Public License version Muh me Lele and
  * only version 2 as published by the Free Software Foundation.
  *
  * This program is distributed in the hope that it will be useful,
@@ -319,7 +319,15 @@
 			<  998400000 5>,
 			< 1094400000 6>,
 			< 1152000000 7>,
-			< 1209600000 8>;
+			< 1209600000 8>,
+			< 1248000000 9>,
+			< 1363200000 10>,
+			< 1401600000 11>,
+			< 1497600000 12>,
+			< 1593600000 13>,
+			< 1689600000 14>,
+			< 1785600000 15>,
+			< 1881600000 16>;
 
 		qcom,speed1-bin-v0 =
 			<          0 0>,
@@ -381,7 +389,7 @@
 				 <  400000  762>,
 				 <  800000  1525>,
 				 < 1094400  3051>,
-				 < 1152000  4066>;
+				 < 1881600  4066>;
 		};
 	};
 
@@ -397,7 +405,15 @@
 			 < 1094400 >,
 			 < 1152000 >,
 			 < 1209600 >,
-			 < 1363200 >;
+			 < 1248000 >,
+			 < 1363200 >,
+			 < 1401600 >,
+			 < 1497600 >,
+			 < 1593600 >,
+			 < 1689600 >,
+			 < 1785600 >,
+			 < 1881600 >;
+
 	};
 
 	qcom,sps {
@@ -862,6 +878,7 @@
 		interrupts = <0 29 1>;
 		qcom,rx-ring-size = <32>;
 		qcom,max-rx-mtu = <4096>;
+		qcom,fast-shutdown;
 	};
 
 	qcom_tzlog: tz-log@8600720 {
