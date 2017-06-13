@@ -1,10 +1,17 @@
+ui_print("===================================");
+ui_print("WARNING! WARNING! WARNING! WARNING!");
+ui_print("===================================");
+ui_print("Disclamier: you're flashing this kernel at your own risk. You don't have right to ask for support nor point your finger at no one of the people involved in the development of this kernel and this branch if anything goes wrong before, during or after flashing. Keep in mind that you've been warned. As a little hint, if something goes wrong, you could try flashing the previous kernel version you were running, but that's still at your own.");
+ui_print("===================================");
+ui_print("WARNING! WARNING! WARNING! WARNING!");
+ui_print("===================================");
 ui_print("                                       ");
 ui_print("  ___                ___         _  __ ");
 ui_print(" / __| ___ _ __  ___| __|__ __ _| |/ / ");
 ui_print(" \__ \/ _ \ '  \/ -_) _/ -_) _` | ' <  ");
 ui_print(" |___/\___/_|_|_\___|_|\___\__,_|_|\_\ ");
 ui_print("                                       ");
-ui_print("                 v4.18                 ");
+ui_print("           crazytests branch           ");
 ui_print("                                       ");
 ui_print("=> It's possible thanks to: ");
 ui_print("- Squid2");
